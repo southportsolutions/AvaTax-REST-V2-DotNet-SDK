@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <SignAssembly>false</SignAssembly>
+    <Authors>Avalara</Authors>
+    <Product>Avalara.AvaTax</Product>
+    <PackageReleaseNotes>HttpClientFactory Implementation</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Southport.Avalara.AvaTax</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
